@@ -1,0 +1,53 @@
+package com.utilities;
+
+
+public class PrimaryInfo {
+public String primaryInfoData() {
+		String data = "{\"module_description\":\"\","
+ + "\"docker_files_directory_url\":\"http://10.11.12.241:80/pdownload/DockerFiles\","
+ + "\"mobile_platform\":null,"
+ + "\"report_upload_url\":\"http://10.11.12.241:80/UploadReport\","
+ + "\"repository_commit_message\":null,"
+ + "\"mobile_type\":null,"
+ + "\"browser_type\":null,"
+ + "\"client_timezone_id\":\"Asia/Calcutta\","
+ + "\"docker_files_directory\":\"/opt/tomcat9/webapps/pdownload/DockerFiles\","
+ + "\"project_url\":null,"
+ + "\"jenkins_username\":null,"
+ + "\"testcase_id\":0,"
+ + "\"project_name\":\"TestC\","
+ + "\"testset_name\":\"TestC\","
+ + "\"is_web\":false,"
+ + "\"jenkins_password\":null,"
+ + "\"testcase_overwrite\":true,"
+ + "\"docker_file_name\":\"DockerFile_7_SE_TC_21\","
+ + "\"project_id\":545,"
+ + "\"framework_path\":\"/home/prolifics/QualityFusion/QF-Users/7/Selenium/TestC\","
+ + "\"sub_module_id\":0,"
+ + "\"repository_url\":\"http://ssakamuri:hREK5ms_wwL5yfGPGmjp@gitlab.prolifics.com/ssakamuri/winiumc.git \","
+ + "\"sub_module_description\":null,"
+ + "\"testcase_name\":null,"
+ + "\"executed_timestamp\":1594798803256,"
+ + "\"is_execute\":true,"
+ + "\"module_type\":0,"
+ + "\"file_name\":null,"
+ + "\"aes_secret_key\":\"_PROLIFICS_PROLIFICS\","
+ + "\"module_type_st\":null,"
+ + "\"testset_id\":21,"
+ + "\"jenkins_token\":null,"
+ + "\"is_generate\":true,"
+ + "\"jenkins_url\":null,"
+ + "\"project_description\":\"\","
+ + "\"module_id\":873,"
+ + "\"user_id\":7,"
+ + "\"bundle_id\":null,"
+ + "\"sub_module_name\":null,"
+ + "\"device_os_version\":null,"
+ + "\"execution_environment\":\"local\","
+ + "\"module_name\":\"TestC\","
+ + "\"executed_user_id\":7,"
+ + "\"desktop_automation\":true,"
+ + "\"input_command\":\"cd .. /n cd .. /n WiniUm.exe http://10.11.52.238:9999\"}";
+return data;
+	}
+}
